@@ -1,7 +1,7 @@
-pytest
-pip-audit
-semgrep
-flake8
-black
-setuptools
-wheel
+pytest==7.4.0
+pip-audit==3.1.3
+semgrep==1.23.0
+flake8==7.0.0
+black==24.9.0
+setuptools==68.0.0
+wheel==0.41.1
