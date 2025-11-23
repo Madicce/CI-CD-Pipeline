@@ -1,4 +1,4 @@
 from main import hello
 
-if __name__ == "__main__":
-  assert hello() == "Hello world!"
+def test_hello():
+    assert hello() == "Hello world!"
