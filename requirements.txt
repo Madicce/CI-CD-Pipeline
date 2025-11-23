@@ -1,0 +1,7 @@
+pytest
+pip-audit
+semgrep
+flake8
+black
+setuptools
+wheel
