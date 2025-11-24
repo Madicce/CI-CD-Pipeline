@@ -1,3 +1,4 @@
+# Code that just print Hello world!
 def hello():  
   return "Hello world!"
 
