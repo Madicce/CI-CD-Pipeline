@@ -35,7 +35,7 @@ jobs:
         run: zip -r my_project.zip src/ requirements.txt README.md
 
       - name: Upload ZIP artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: my_project
           path: my_project.zip
