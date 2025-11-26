@@ -32,13 +32,13 @@ jobs:
         run: black /src
       
       - name: Create ZIP package
-        run: zip -r mon_projet.zip src/ requirements.txt README.md
+        run: zip -r my_project.zip src/ requirements.txt README.md
 
       - name: Upload ZIP artifact
         uses: actions/upload-artifact@v3
         with:
-          name: mon_projet
-          path: mon_projet.zip
+          name: my_project
+          path: my_project.zip
 
   pip-audit:
     runs-on: ubuntu-latest
