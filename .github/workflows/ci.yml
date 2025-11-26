@@ -44,3 +44,5 @@ jobs:
           pip install -r requirements.txt pip-audit
       - name: Run pip-audit
         run: pip-audit || echo "Vulnerabilities found"
+      - name: Lint python code
+        run: black .
