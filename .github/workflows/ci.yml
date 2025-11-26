@@ -29,7 +29,7 @@ jobs:
         run: python -m pytest
 
       - name: Lint python code
-        run: black /src
+        run: black src/
       
       - name: Create ZIP package
         run: zip -r my_project.zip src/ requirements.txt README.md
