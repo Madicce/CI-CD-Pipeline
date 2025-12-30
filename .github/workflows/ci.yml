@@ -31,6 +31,7 @@ jobs:
       - name: Lint python code
         run: black src/
       
+      # Create ZIP package
       - name: Create ZIP package
         run: zip -r my_project.zip src/ requirements.txt README.md
 
