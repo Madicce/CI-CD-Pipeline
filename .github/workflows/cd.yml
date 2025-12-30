@@ -6,7 +6,6 @@ on:
 
 jobs:
   deploy:
-    name: Deploy with Podman
     runs-on: ubuntu-latest
     needs: build
     steps:
